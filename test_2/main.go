@@ -5,19 +5,6 @@ import (
 	"strings"
 )
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
 
 func decodeSequence(encoded string) string {
 	n := len(encoded) + 1
